@@ -1,0 +1,232 @@
+/* Common styles */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(Other_Images/Background1.jpg);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+/* styles for images */
+
+#imgBlackJackIntro{
+    width: 300px;
+    height: 374px;
+    margin: 5px;
+}
+
+#imgBlackJackRulesLogo{
+    position: fixed;
+    margin: 0px 0px 0px 0px;
+}
+
+#imgBlackJackRules{
+    position: fixed;
+    margin: 140px 0px 0px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#imgCurrentCard{
+    width: 165px;
+    height: 235px;
+}
+
+.imgPlayerCards, .imgComputerCards{
+    width: 100px;
+    height: 150px; 
+    margin: 3px;
+    transition: linear;
+}
+
+
+
+
+/* styles for divisions */
+
+#divIntroPage{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#divBJWelcome{
+    position: fixed;
+    margin: -10px 0px 0px 10px;
+    width: 60%;
+}
+
+#divHeaderButtons{
+    position: fixed;
+    width: 35%;
+    margin: 5px 10px 0px 850px;
+    text-align: right;
+}
+
+#divCurrentCard{
+    position: fixed;
+    margin: 40px 0px 0px 485px;
+}
+
+#divHitStay{
+    position: fixed;
+    margin: 135px 0px 0px 700px;
+}
+
+#divPlayerCards{
+    position: fixed;
+    margin: 370px 0px 0px 10px;
+    width: 640px;
+    height: 220px;
+    border: 1px solid white;
+    padding-bottom: 8px;
+}
+
+#divComputerCards{
+    position: fixed;
+    margin: 370px 0px 0px 700px;
+    width: 640px;
+    height: 220px;
+    border: 1px solid white;
+    padding-bottom: 8px;
+}
+
+#divFinalResult{
+    position: fixed;
+    width: 40%;
+    height: 30%;
+    margin: 50px 0px 0px 350px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+#divBlackJackRulesPaneButtons1{
+    position: fixed;
+    text-align: center;
+    margin: 45px 0px 0px 300px;
+}
+
+#divBlackJackRulesPaneButtons2{
+    position: fixed;
+    text-align: center;
+    width: 270px;
+    margin: 49px 0px 0px 1040px;
+}
+
+#divBlackJackRules{
+    position: fixed;
+    text-align: center;
+    margin: 0px 0px 0px 30px;
+}
+
+#divBlackJackRulesPage, #divGamePage, #divFinalResult{
+    display: none;
+}
+
+
+
+
+/* styles for buttons */
+
+#divIntroPage button{
+    margin: 10px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 8px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#btnResumeGame{
+    display: none;
+}
+
+#divHeaderButtons button{
+    margin: 10px;
+}
+
+#divHitStay button{
+    margin: 10px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#divFinalResult button{
+    margin: 65px 10px;
+}
+
+#divBlackJackRulesPaneButtons1 button{
+    margin: 2px;
+    width: 170px;
+    height: 50px;
+}
+
+#divBlackJackRulesPaneButtons2 button{
+    margin: 2px;
+    width:120px;
+}
+
+button:hover{
+    background-color:#F3AC08;
+}
+
+
+
+
+
+/* styles for texts(h3,h4,h5) */
+
+#lblHint{
+    position: fixed;
+    margin: 150px 0px 0px 500px;
+    width: 60%;
+    font-size: 50px;
+}
+
+#divCurrentCard h4{
+    position: relative;
+    margin-left: 15px;
+}
+
+#divPlayerCards h5{
+    position: relative;
+    margin-left: 15px;
+}
+
+#divComputerCards h5{
+    position: relative;
+    margin-left: 15px;
+}
+
+#divPlayerCards h3{
+    position: fixed;
+    margin: -40px 0px 0px 410px;
+}
+
+#divComputerCards h3{
+    position: fixed;
+    margin: -40px 0px 0px 370px;
+}
+
+#lblPlayerScore, #lblComputerScore{
+    color: #2EE3F2;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Prasad Madushanka Dauglas Dambure Liyanage">
+    <meta name="keywords" content="CS Programming, JavaScript, HTML, CSS, BLACKJACK, UJI">
+    <meta name="description" content="BLACKJACK game for two players">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK GAME</title>
+    <link rel="stylesheet" href="Style_al427069.css">
+</head>
+
+<body>
+    <div id="divIntroPage">
+        <img id="imgBlackJackIntro" src="Other_Images/BlackJack.png"><br>
+        <button id="btnBlackJackRules1">GAME RULES</button>
+        <button id="btnPlayGame1">PLAY GAME</button>
+    </div>
+
+    <div id="divBlackJackRulesPage">
+        <div id="divBlackJackRulesPaneButtons1">
+            <button id="btnCardValues">CARD VALUES</button>
+            <button id="btnPlayersTurn">PLAYER'S TURN</button>
+            <button id="btnComputersTurn">COMPUTER'S TURN</button>
+            <button id="btnWinnerSelection">WINNER SELECTION</button>
+        </div>
+        <div id="divBlackJackRulesPaneButtons2">
+            <button id="btnPlayGame2">PLAY GAME</button>
+            <button id="btnResumeGame">RESUME GAME</button>
+            <button id="btnClose">CLOSE</button>
+        </div>
+        <div id="divBlackJackRules">
+            <img id="imgBlackJackRulesLogo" src="Other_Images/GameRulesLogo.png">
+            <img id="imgBlackJackRules">
+        </div>
+    </div>
+
+    <div id="divGamePage">
+        <div id="divBJWelcome">
+            <h2>BLACKJACK  GAME . . . </h2>
+        </div>
+        <div>
+            <h1 id="lblHint">Shuffling</h1>
+        </div>
+        <div id="divHeaderButtons">
+            <button id="btnBlackJackRules2">GAME RULES</button>
+            <button id="btnNewGame">NEW GAME</button>   
+        </div>
+        <div id="divCurrentCard">
+            <h4>CURRNET CARD</h4>
+            <img id="imgCurrentCard">
+        </div>
+        <div id="divHitStay">
+            <button id="btnHit">HIT</button><br>
+            <button id="btnStay">STAY</button>
+        </div>
+        <div id="divPlayerCards">
+            <h5 id="lblPlayerCards">CARDS OF PLAYER</h5>
+            <h3>PLAYER SCORE : <span id="lblPlayerScore">0</span></h3>
+        </div>
+        <div id="divComputerCards">
+            <h5 id="lblComputerCards">CARDS OF COMPUTER</h5>
+            <h3>COMPUTER SCORE : <span id="lblComputerScore">0</span></h3>
+        </div>
+    </div>
+
+    <div id="divFinalResult">
+        <h2 id="lblFinalResult"></h2>
+        <button id="btnPlayAgain">PLAY AGAIN</button>
+        <button id="btnMainWindow">MAIN WINDOW</button>
+    </div>
+
+    <script src="Handler_al427069.js"></script>
+</body>
+</html>
